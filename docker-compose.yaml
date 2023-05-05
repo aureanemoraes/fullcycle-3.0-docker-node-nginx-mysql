@@ -34,8 +34,6 @@ services:
       - DB_PASSWORD=root
       - DB_SCHEMA=nodedb
       - DB_PORT=3307
-    volumes:
-      - ./node_app:/usr/src/app
     ports:
       - "3000:3000"
     depends_on:
